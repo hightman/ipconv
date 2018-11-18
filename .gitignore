@@ -1,0 +1,9 @@
+# ignores
+composer.lock
+vendor
+.idea
+.DS_Store
+
+# dev data result files
+dev-data/ip2zone.dat
+dev-data/crc3.inc.php

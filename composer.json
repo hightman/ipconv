@@ -1,0 +1,22 @@
+{
+    "name": "hightman/ipconv",
+    "description": "IPv4 address converter and query, such as country, city, ISP",
+    "keywords": ["php", "IP", "GeoLocation", "country", "city"],
+    "homepage": "https://github.com/hightman/ipconv/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "ext-scws": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hightman\\ipconv\\": "./"
+        }
+    },
+    "archive": {
+        "exclude": ["/dev-data"]
+    }
+}
