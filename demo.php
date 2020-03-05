@@ -9,7 +9,7 @@
  */
 
 // usage for cli
-if (isset($_SERVER['argv']) && !isset($_SERVER['argv'][1])) {
+if (php_sapi_name() === 'cli' && !isset($_SERVER['argv'][1])) {
     echo 'Usage: ', $_SERVER['argv'][0], ' <IP or hostname>', PHP_EOL;
     exit(-1);
 }
